@@ -21,4 +21,10 @@ public class ApplicationController {
         return "India";
     }
 
+    @GetMapping("/myname")
+    public String myName()
+    {
+        return "Harshad!!!!!!";
+    }
+
 }
